@@ -1,0 +1,16 @@
+{
+	"name": "seebz/uri-template",
+	"description": "Implementation of RFC-6570 (Template URI) in a single PHP function",
+	"homepage": "http://github.com/Seebz/uri-template",
+	"type": "library",
+	"keywords": [
+		"template uri",
+		"rfc 6570",
+	],
+	"autoload": {
+		"files": [ "src.php" ]
+	},
+	"require": {
+		"php": ">=5.3.0"
+	}
+}

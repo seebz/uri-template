@@ -5,7 +5,7 @@
 	"type": "library",
 	"keywords": [
 		"template uri",
-		"rfc 6570",
+		"rfc 6570"
 	],
 	"autoload": {
 		"files": [ "src.php" ]

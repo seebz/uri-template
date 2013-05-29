@@ -1,8 +1,16 @@
 <?php
-
 /**
  * PHP implementation of RFC 6570 (URI Template)
  *
+ * @package seebz\uri-template
+ * @author  Sébastien Corne <sebastien@seebz.net>
+ * @license http://www.wtfpl.net WTFPL
+ */
+
+
+/**
+ * Transforms a template string into a URI
+ * 
  * @param  string  $template   URI template
  * @param  array   $variables  Array of variables (optionnal)
  * @return string  Complete URI

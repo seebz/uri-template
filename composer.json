@@ -1,6 +1,7 @@
 {
 	"name": "seebz/uri-template",
 	"description": "Implementation of RFC-6570 (Template URI) in a single PHP function",
+	"keywords": [ "rfc6570", "uri template" ],
 	"homepage": "http://github.com/Seebz/uri-template",
 	"type": "library",
 	"license": "WTFPL",
@@ -10,10 +11,6 @@
 			"email": "sebastien@seebz.net",
 			"homepage": "http://seebz.net"
 		}
-	],
-	"keywords": [
-		"template uri",
-		"rfc 6570"
 	],
 	"autoload": {
 		"files": [ "src/functions.php" ]

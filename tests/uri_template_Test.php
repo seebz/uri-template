@@ -1,23 +1,13 @@
 <?php
 
-require_once 'PHPUnit/Autoload.php';
-require_once 'src.php';
+use PHPUnit\Framework\TestCase;
 
 
 /**
  * Test class for uri_template().
  */
-class UriTemplateTest extends PHPUnit_Framework_TestCase
+class uri_template_Test extends TestCase
 {
-	/**
-	 * Runs the test methods of this class.
-	 */
-	public static function main()
-	{
-		$suite  = new PHPUnit_Framework_TestSuite(__CLASS__);
-		$result = PHPUnit_TextUI_TestRunner::run($suite);
-	}
-
 	public function testLevel1()
 	{
 		$variables = array(
@@ -467,10 +457,3 @@ class UriTemplateTest extends PHPUnit_Framework_TestCase
 		}
 	}
 }
-
-// Call MyFileTest::main() if this source file is executed directly.
-if (!defined('PHPUnit_MAIN_METHOD')) {
-	UriTemplateTest::main();
-}
-
-?>

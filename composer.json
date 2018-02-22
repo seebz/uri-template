@@ -1,28 +1,33 @@
 {
 	"name": "seebz/uri-template",
-	"description": "Implementation of RFC-6570 (Template URI) in a single PHP function",
-	"homepage": "http://github.com/Seebz/uri-template",
+	"description": "Implementation of RFC 6570 (URI Template) in a single PHP function",
+	"keywords": [ "rfc6570", "uri template" ],
+	"homepage": "https://github.com/Seebz/uri-template",
 	"type": "library",
 	"license": "WTFPL",
 	"authors": [
 		{
-			"name": "Sébastien Corne",
-			"email": "sebastien@seebz.net"
+			"name": "S\u00e9bastien Corne",
+			"email": "sebastien@seebz.net",
+			"homepage": "http://seebz.net"
 		}
 	],
-	"keywords": [
-		"template uri",
-		"rfc 6570"
-	],
 	"autoload": {
-		"files": [ "src.php" ]
+		"files": [ "src/functions.php" ]
 	},
 	"require": {
 		"php": ">=5.3.0"
+	},
+	"require-dev": {
+		"php": ">=5.6.0",
+		"phpunit/phpunit": "^5.7"
 	},
 	"extra": {
 		"branch-alias": {
 			"dev-master": "2.0.x-dev"
 		}
+	},
+	"scripts": {
+		"test": "phpunit"
 	}
 }
